@@ -13,3 +13,7 @@ chmod 600 ~/.ssh/authorized_keys
 mkdir -p ~/bin
 curl -sSL -o ~/bin/rustgit https://github.com/danfarino/rustgit/releases/download/latest/rustgit
 chmod +x ~/bin/rustgit
+
+curl -fsSLO https://github.com/zyedidia/micro/releases/download/v2.0.11/micro-2.0.11-amd64.deb
+sudo apt install -y ./micro-2.0.11-amd64.deb
+rm micro-2.0.11-amd64.deb
