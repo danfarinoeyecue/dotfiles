@@ -11,5 +11,3 @@ cd
 gh repo clone danfarino/dotfiles
 rm .gitconfig
 ./dotfiles/setup.sh
-
-rm -f ~/install-dotfiles.sh
