@@ -20,5 +20,5 @@ rm micro-2.0.11-amd64.deb
 
 (
     cd ~/.vscode-remote/data/Machine
-    jq -M '.["workbench.colorCustomizations"] = { "titleBar.activeBackground": "#d9d0e7" }' < settings.json | sponge settings.json
+    jq -M '.["workbench.colorCustomizations"] = { "titleBar.activeBackground": "#d9dcf9" }' < settings.json | sponge settings.json
 )
