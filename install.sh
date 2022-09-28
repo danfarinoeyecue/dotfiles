@@ -17,3 +17,8 @@ chmod +x ~/bin/rustgit
 curl -fsSLO https://github.com/zyedidia/micro/releases/download/v2.0.11/micro-2.0.11-amd64.deb
 sudo apt install -y ./micro-2.0.11-amd64.deb
 rm micro-2.0.11-amd64.deb
+
+(
+    cd ~/.vscode-remote/data/Machine
+    jq -M '.["workbench.colorCustomizations"] = { "titleBar.activeBackground": "#d9d0e7" }' < settings.json | sponge settings.json
+)
